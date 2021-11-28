@@ -58,36 +58,36 @@ get_portrait_lite() {
 
 ## Using MobileNet V1 downloaded from: https://github.com/shicai/MobileNet-Caffe/
 get_caffe1 \
-  "https://raw.githubusercontent.com/shicai/MobileNet-Caffe/master/mobilenet.caffemodel" \
+  "https://github.com/shicai/MobileNet-Caffe/raw/master/mobilenet.caffemodel" \
   "build/mobilenet_v1.caffe.caffemodel" \
-  "https://raw.githubusercontent.com/shicai/MobileNet-Caffe/master/mobilenet_deploy.prototxt" \
+  "https://github.com/shicai/MobileNet-Caffe/raw/master/mobilenet_deploy.prototxt" \
   "build/mobilenet_v1.caffe.prototxt" \
   "MobileNet V1" \
   "model/MobileNet/v1/mobilenet_v1.caffe.mnn"
 
 ## Using MobileNet V2 downloaded from: https://github.com/shicai/MobileNet-Caffe/
 get_caffe1 \
-  "https://raw.githubusercontent.com/shicai/MobileNet-Caffe/master/mobilenet_v2.caffemodel" \
+  "https://github.com/shicai/MobileNet-Caffe/raw/master/mobilenet_v2.caffemodel" \
   "build/mobilenet_v2.caffe.caffemodel" \
-  "https://raw.githubusercontent.com/shicai/MobileNet-Caffe/master/mobilenet_v2_deploy.prototxt" \
+  "https://github.com/shicai/MobileNet-Caffe/raw/master/mobilenet_v2_deploy.prototxt" \
   "build/mobilenet_v2.caffe.prototxt" \
   "MobileNet V2" \
   "model/MobileNet/v2/mobilenet_v2.caffe.mnn"
 
 ## Using SqueezeNet V1.0 downloaded from: https://github.com/DeepScale/SqueezeNet/
 get_caffe1 \
-  "https://raw.githubusercontent.com/DeepScale/SqueezeNet/master/SqueezeNet_v1.0/squeezenet_v1.0.caffemodel" \
+  "https://github.com/forresti/SqueezeNet/raw/master/SqueezeNet_v1.0/squeezenet_v1.0.caffemodel" \
   "build/squeezenet_v1.0.caffe.caffemodel" \
-  "https://raw.githubusercontent.com/DeepScale/SqueezeNet/master/SqueezeNet_v1.0/deploy.prototxt" \
+  "https://github.com/forresti/SqueezeNet/raw/master/SqueezeNet_v1.0/deploy.prototxt" \
   "build/squeezenet_v1.0.caffe.prototxt" \
   "SqueezeNet V1.0" \
   "model/SqueezeNet/v1.0/squeezenet_v1.0.caffe.mnn"
 
 ## Using SqueezeNet V1.1 downloaded from: https://github.com/DeepScale/SqueezeNet/
 get_caffe1 \
-  "https://raw.githubusercontent.com/DeepScale/SqueezeNet/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel" \
+  "https://github.com/forresti/SqueezeNet/raw/master/SqueezeNet_v1.1/squeezenet_v1.1.caffemodel" \
   "build/squeezenet_v1.1.caffe.caffemodel" \
-  "https://raw.githubusercontent.com/DeepScale/SqueezeNet/b6b5ae2ce884a3866c21efd31e103defde8631ae/SqueezeNet_v1.1/deploy.prototxt" \
+  "https://github.com/forresti/SqueezeNet/raw/master/SqueezeNet_v1.1/deploy.prototxt" \
   "build/squeezenet_v1.1.caffe.prototxt" \
   "SqueezeNet V1.1" \
   "model/SqueezeNet/v1.1/squeezenet_v1.1.caffe.mnn"
